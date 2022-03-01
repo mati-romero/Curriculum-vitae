@@ -1,0 +1,205 @@
+/*General*/
+
+h1 {
+	font-family: 'Dela Gothic One', cursive;
+	color: rgb(67,57,66);
+}
+
+h2 {
+	font-family: 'Dela Gothic One', cursive;
+	color: rgb(67,57,66);
+}
+
+h3 {
+	font-family: 'Dela Gothic One', cursive;
+	color: rgb(67,57,66);
+}
+
+h4 {
+	font-family: 'Roboto', sans-serif;
+	color: rgb(67,57,66);
+	font-weight: 600;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	color: rgb(67,57,66);
+	font-size: 15px;
+}
+
+.color-white {
+	color: rgb(255,254,230);
+}
+
+.bg-yellow {
+	background-color: rgb(252,208,57);
+}
+
+.btn-white {
+	border: 2px solid rgb(255,254,230);
+	color: rgb(255,254,230);
+	padding: 10px;
+	border-radius: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	background: none;
+}
+
+.btn-white:hover {
+	border: 2px solid rgb(67,57,66);
+	color: rgb(67,57,66);
+}
+
+.btn-black {
+	border: 2px solid rgb(67,57,66);
+	color: rgb(67,57,66);
+	padding: 10px;
+	border-radius: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	background: none;
+}
+
+.btn-black:hover {
+	border: 2px solid rgb(252,208,57);
+	color: rgb(252,208,57);
+}
+
+.btn-menu {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: rgba(34,34,32,0.5);
+	border-radius: 30%;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 99999;
+	margin-right: 20px;
+	transition: all .4s ease;
+	text-align: center;
+	padding-top: 5px;
+	border: 1px solid #FFF;
+}
+
+.btn-menu a {
+	color: #FFF;
+	font-size: 20px;
+}
+
+/*Cabezera*/
+
+.navegador a {
+	color: rgb(67,57,66);
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+}
+
+.navegador a:hover {
+	color: rgb(255,254,230);
+}
+
+.presentacion {
+	position: absolute;
+	bottom: 50px;
+	padding: 10px;
+}
+
+/*Sobre mi*/
+
+.sobre-mi p {
+	text-align: justify;
+}
+
+/*Educacion*/
+
+.certidicados {
+	display: none;
+}
+
+.certificado {
+	text-align: center;
+	border: 2px solid rgb(252,208,57);
+	border-radius: 20px;
+	padding-top: 10px;
+}
+
+.certificado i {
+	font-size: 50px;
+	color: rgb(252,208,57);
+}
+
+/*Portafolio*/
+
+.portafolio {
+	margin-top: 100px;
+}
+
+.portafolio i {
+	font-size: 1.75rem;
+}
+
+.portafolio a {
+	transition: transform .2s; 
+}
+
+.portafolio a:hover {
+	text-decoration: none;
+	border: 2px solid rgb(252,208,57);
+}
+
+/*Footer*/
+
+footer .redes a {
+	color: rgb(67,57,66);
+	font-size: 50px;
+}
+
+footer .redes a:hover {
+	color: rgb(255,254,230);
+}
+
+.error {
+	color: red;
+	display: none;
+}
+
+.formulario input[type="text"] , .formulario input[type="email"] {
+	width: 100%;
+	outline: none;
+	border: none;
+	background: rgb(255,254,230);
+	padding: 10px;
+	border-bottom: 1px solid rgb(67,57,66);
+	color: rgb(67,57,66);
+	margin-bottom: 50px;
+}
+
+.formulario textarea {
+	width: 100%;
+	max-height: 200px;
+	min-height: 200px;
+	background: rgb(255,254,230);
+	padding: 10px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid rgb(67,57,66);
+	color: rgb(67,57,66);
+	margin-bottom: 50px;
+}
+
+.formulario input[type="submit"] {
+	text-decoration: none;
+	color: rgb(67,57,66);
+	padding: 10px;
+	border: 1px solid rgb(67,57,66);
+	font-weight: 600;
+	transition: all .4s ease;
+	background: none;
+	width: 100px;
+}
+
+.formulario input[type="submit"]:hover {
+	color: rgb(255,254,230);
+	border:1px solid rgb(255,254,230);
+}

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Matias Romero</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="img/m.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body>
+
+	<div id="Btn-menu" class="btn-menu">
+		<a class="volver-arriba" href="#">
+        	<i class="fas fa-angle-up"></i>
+      	</a>
+	</div>
+
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-xl-6 bg-yellow m-0 px-1 px-xl-5 py-3" style="min-height: 600px;">
+					<ul class="nav navegador justify-content-center">
+						<li class="nav-item">
+							<a class="nav-link scroll-suave" href="#SobreMi">Sobre mí</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link scroll-suave" href="#Educacion">Educación</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link scroll-suave" href="#Portafolio">Portafolio</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link scroll-suave" href="#Contacto">Contacto</a>
+						</li>
+					</ul>
+
+					<div class="presentacion">
+						
+						<h1 class="text-uppercase color-white">web developer</h1>
+						<h2 class="text-uppercase mb-4">Matias Romero</h2>
+
+						<p class="lead">« Estamos aquí para darle un mordisco al Universo. Si no, ¿para qué más podemos estar aquí? »</p>
+
+						<a href="pdf/cvmatias.pdf" download="Curriculum-vitae.pdf" target="_blank" class="btn btn-white mt-4" role="button" aria-pressed="true">Descargar Curriculum</a>
+
+					</div>
+				</div>
+
+				<div class="d-none d-xl-flex col-6 m-0 p-0">
+					<img class="img-fluid w-100" src="img/foto (5).jpg">
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="main mt-5">
+		<div class="container">
+			<section class="sobre-mi my-5 p-5" id="SobreMi">
+				<div class="row align-items-center">
+					<div class="col-12 col-xl-4">
+						<h2 class="my-3">Sobre mí</h2>
+						
+						<p>
+							Hola, mi nombre es Matías. Soy programador web junior, con conocimientos en tecnologías como HTML, Css y Javascript, cuento con vasta experiencia en la creación de algoritmos para la solución de problemas lógicos y matemáticos, me gustan los retos, soy una persona apasionada con ganas de aprender y mejorar día a día. Me considero una persona seria, activa, responsable, con ganas de trabajar y aprender, con facilidad de adaptación y capacidad para trabajar en equipo, con iniciativa para resolver problemas de manera eficiente para alcanzar las metas y objetivos planteados por la empresa. Actualmente soy asesor técnico en la empresa Apex América, y colaboro como desarrollador web en la fundación Vicentina, también estoy participando en varios proyectos de desarrollo web.
+						</p>
+					</div>
+
+					<div class="col-12 col-xl-8">
+						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+						  <ol class="carousel-indicators">
+						    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						  </ol>
+						  <div class="carousel-inner">
+						    <div class="carousel-item active">
+						      <img class="d-block w-100" src="img/foto (1).jpg" alt="First slide">
+						    </div>
+						    <div class="carousel-item">
+						      <img class="d-block w-100" src="img/foto (3).jpg" alt="Second slide">
+						    </div>
+						    <div class="carousel-item">
+						      <img class="d-block w-100" src="img/foto (4).jpg" alt="Third slide">
+						    </div>
+						  </div>
+						  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Next</span>
+						  </a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="educacion text-center my-5" id="Educacion">
+				<h2 class="my-3">Educación</h2>
+				<p class="w-75 m-auto">Aquí podrás visualizar mis certificados y diplomas.</p>
+
+				<div class="row justify-content-center my-5">
+					<div class="col-4 col-xl-2">
+						<img class="img-fluid" src="img/e000.jpg">
+					</div>
+
+					<div class="col-4 col-xl-2">
+						<img class="img-fluid" src="img/e001.jpg">
+					</div>
+
+					<div class="col-4 col-xl-2">
+						<img class="img-fluid" src="img/e002.jpg">
+					</div>
+				</div>
+
+				<button type="button" class="btn btn-black btn-slide" data-obj ="Certidicados">Mis Certificados</button>
+
+				<div class="container certidicados my-5" id="Certidicados">
+					<h3 class="my-5">Certificados</h3>
+
+					<div class="row justify-content-center">
+						<div class="certificado col-12 col-sm-5 col-lg-3 mx-3 my-5">
+							<i class="fas fa-graduation-cap"></i>
+							<h4 class="my-2">Secundario: Escuela Normal Superior Dalmacio Velez Sarsfield.</h4>
+							<p>Titulo: Bachiller orientado en ciencias naturales.</p>
+							<p>Especialidad: Salud y ambiente.</p>
+							<p>Dic, 2010</p>
+						</div>
+
+						<div class="certificado col-12 col-sm-5 col-lg-3 mx-3 my-5">
+							<i class="fab fa-wordpress-simple"></i>
+							<h4 class="my-2">WordPress: Diseña y desarrolla Páginas Web desde cero</h4>
+							<p>Dictado por Marina Rodrigo.</p>
+							<p>4 horas y 39 minutos de duración.</p>
+							<p>Nivel Completo.</p>
+							<p>Julio, 2020</p>
+						</div>
+
+						<div class="certificado col-12 col-sm-5 col-lg-3 mx-3 my-5">
+							<i class="fas fa-pencil-ruler"></i>
+							<h4 class="my-2">Fundamentos del Diseño UX</h4>
+							<p>Dictado por Luis Quesada Romero</p>
+							<p>Duración total de clases 58m 26s</p>
+							<p>Febrero, 2021</p>
+						</div>
+
+						<div class="certificado col-12 col-sm-5 col-lg-3 mx-3 my-5">
+							<i class="fab fa-js"></i>
+							<h4 class="my-2">Maquetación de sitios web dinámicos con Javascript y jQuery desde cero</h4>
+							<p>Dictado por Sergio Agamez Negrete
+							<p>13 horas y 22 minutos de duración</p>
+							<p>Nivel Completo.</p>
+							<p>Febrero, 2021</p>
+						</div>
+
+						<div class="certificado col-12 col-sm-5 col-lg-3 mx-3 my-5">
+							<i class="fab fa-git"></i>
+							<h4 class="my-2">Git y GitHub: Control de versiones en Proyectos Web</h4>
+							<p>Dictado por Luis Quesada Romero</p>
+							<p>Duración total de clases 58m 26s</p>
+							<p>Nivel Completo.</p>
+							<p>Abril, 2021.</p>
+						</div>
+
+						<div class="certificado col-12 col-sm-5 col-lg-3 mx-3 my-5">
+							<i class="fab fa-bootstrap"></i>
+							<h4 class="my-2">Bootstrap desde cero: Construye sitios web responsive</h4>
+							<p>Dictado por Sergio Agamez Negrete</p>
+							<p>7 horas y 44 minutos de duración</p>
+							<p>Nivel Intermedio.</p>
+							<p>Mayo, 2021.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="portafolio" id="Portafolio">
+				<div class="container">
+					<h2 class="text-center">Revisa mi trabajo</h2>
+					<p class="text-center m-auto w-75">Te invito a visitar los distintos sitios webs en los que he trabajado.</p>
+				
+					<div class="row justify-content-center my-5">
+						<a href="https://mati-romero.github.io/empire-web-site-design/" target="_blank" class="col-12 col-md-5 col-lg-5 m-2 p-0 bg-azul">
+							<img class="w-100" src="img/proyecto(1).jpg" alt="">
+							<div class="p-5">
+								<h3 class="color-white"><span class="badge"><i class="fab fa-js"></i></span>Empire web site design</h3>
+							</div>
+						</a>
+
+						<a href="http://www.fundacionvicentina.org.ar/" target="_blank" class="col-12 col-md-5 col-lg-5 m-2 p-0 bg-amarillo">
+							<img class="w-100" src="img/proyecto(2).jpg" alt="">
+							<div class="p-5">
+								<h3 class="color-white"><span class="badge"><i class="fab fa-js"></i></span>Fundacion Vicentina</h3>
+							</div>
+						</a>
+
+						<a href="https://mati-romero.github.io/Tenki/" target="_blank" class="col-12 col-md-5 col-lg-5 m-2 p-0 bg-violeta">
+							<img class="w-100" src="img/proyecto(3).jpg" alt="">
+							<div class="p-5">
+								<h3 class="color-white"><span class="badge"><i class="fab fa-js"></i></span>Tenki</h3>
+							</div>
+						</a>
+
+						<a href="http://facundotaborda.com.ar/" target="_blank" class="col-12 col-md-5 col-lg-5 m-2 p-0 bg-verde">
+							<img class="w-100" src="img/proyecto(4).jpg" alt="">
+							<div class="p-4">
+								<h3 class="color-white"><span class="badge"><i class="fab fa-js"></i></span>Tatoo: Facundo Taborda</h3>
+							</div>
+						</a>
+
+						<a href="http://www.antonellaroggio.com.ar/" target="_blank" class="col-12 col-md-5 col-lg-5 m-2 p-0 bg-azul">
+							<img class="w-100" src="img/proyecto(5).jpg" alt="">
+							<div class="p-4">
+								<h3 class="color-white"><span class="badge"><i class="fab fa-js"></i></span>CV: Antonella Roggio</h3>
+							</div>
+						</a>
+
+						<a href="https://mati-romero.github.io/js-code/" target="_blank" class="col-12 col-md-5 col-lg-5 m-2 p-0 bg-amarillo">
+							<img class="w-100" src="img/proyecto(6).jpg" alt="">
+							<div class="p-4">
+								<h3 class="color-white"><span class="badge"><i class="fab fa-js"></i></span>JS-Code</h3>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+		</div>
+	</section>
+
+	<footer id="Contacto">
+		<div class="container bg-yellow">
+			<div class="row justify-content-center px-3 py-5">
+
+				<div class="col-12 col-lg-5 my-5">
+
+					<h2 class="text-center">Contacto</h2>
+
+					<p class="text-center my-3">Si te ha gustado mi trabajo, te invito a contactarme.</p>
+					
+					<form class="formulario my-5">
+						<div>
+							<input type="text" name="nombre" placeholder="Nombre" id="nombre">
+							<p class="error">Please enter your name</p>
+						</div>
+						<div>
+							<input type="email" name="email" placeholder="E-mail" id="email">
+							<p class="error">Please enter your email</p>
+						</div>
+						<div>
+							<textarea name="mensaje" placeholder="Escríbeme..." id="mensaje"></textarea>
+							<p class="error">Please write your message</p>
+						</div>
+						<div class="text-right">
+							<input  id="Enviar" type="submit" name="enviar" value="Enviar">
+						</div>
+					</form>
+
+					<h3 class="text-center my-5">Seguime</h3>
+
+					<div class="redes text-center">
+						<a href="https://www.linkedin.com/in/matias-romero-851385198" class="mr-5"><i class="fab fa-linkedin-in"></i></a>
+						<a href="https://www.instagram.com/matiwebproyects/?utm_medium=copy_link" class="mr-5"><i class="fab fa-instagram"></i></a>
+						<a href="https://twitter.com/MatiasR49652166?t=wQUAP4P_wtHGS00D8nsO_Q&s=08"><i class="fab fa-twitter"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/btn-slide.js"></script>
+	<script src="js/bg-color.js"></script>
+	<script src="js/scroll-suave.js"></script>
+</body>
+</html>
