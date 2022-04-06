@@ -248,18 +248,18 @@
 
 					<p class="text-center my-3">Si te ha gustado mi trabajo, te invito a contactarme.</p>
 					
-					<form class="formulario my-5">
+					<form class="formulario my-5" id="formulario" action="php/correo.php" method="POST">
 						<div>
 							<input type="text" name="nombre" placeholder="Nombre" id="nombre">
-							<p class="error">Please enter your name</p>
+							<p class="error">Por favor introduzca su correo nombre</p>
 						</div>
 						<div>
 							<input type="email" name="email" placeholder="E-mail" id="email">
-							<p class="error">Please enter your email</p>
+							<p class="error">Por favor introduzca su correo electrónico</p>
 						</div>
 						<div>
 							<textarea name="mensaje" placeholder="Escríbeme..." id="mensaje"></textarea>
-							<p class="error">Please write your message</p>
+							<p class="error">Por favor escriba su mensaje</p>
 						</div>
 						<div class="text-right">
 							<input  id="Enviar" type="submit" name="enviar" value="Enviar">
@@ -284,5 +284,6 @@
 	<script src="js/btn-slide.js"></script>
 	<script src="js/bg-color.js"></script>
 	<script src="js/scroll-suave.js"></script>
+	<script src="js/validacion.js"></script>
 </body>
 </html>
